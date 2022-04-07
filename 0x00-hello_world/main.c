@@ -15,5 +15,7 @@ nclude < stdio.h >
 int main(void)
 
 {
+	printf("export CFILE=main.c;\n");
+	printf("./0-preprocessor");
 return (0);
 }
